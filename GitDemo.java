@@ -28,8 +28,14 @@ public class GitDemo {
      * @return - description of return value goes here
      *****/
     public void templateFunction(int num) {
+        double factorialNumber = 0;
         
-        /** Code goes here **/
+        while (num != 0) {
+            double temp = num % 10;
+            factorialNumber = factorialNumber * 10 + temp;
+            num /= 10;
+        }
         
+        return factorialNumber;
     }
 }
