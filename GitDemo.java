@@ -29,6 +29,15 @@ public class GitDemo {
      * @return - description of return value goes here
      *****/
     public void templateFunction1(int num) {
+        double newNumber = 1;
+        
+        for(int i = 1; i <= num; ++i){
+            newNumber = newNumber * i;
+        }
+        return newNumber;
+    }
+  
+    public void templateFunction2(int num){
         double factorialNumber = 0;
         
         while (num != 0) {
@@ -37,14 +46,5 @@ public class GitDemo {
             num /= 10;
         }
         return factorialNumber; 
-    }
-  
-    public void templateFunction2(int num){
-        double newNumber = 1;
-        
-        for(int i = 1; i <= num; ++i){
-            newNumber = newNumber * i;
-        }
-        return newNumber;
     }
 }
