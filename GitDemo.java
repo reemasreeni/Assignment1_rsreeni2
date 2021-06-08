@@ -1,6 +1,6 @@
 /*****
 Reema Sreenivasan
-// REPOSITORY URL : https://github.com/reemasreeni/Assignment1_rsreeni2.git
+REPOSITORY URL : https://github.com/reemasreeni/Assignment1_rsreeni2.git
 ******/
 public class GitDemo {
     
