@@ -1,6 +1,6 @@
 /*****
- * Edit this line to have your name.
- ******/
+Reema Sreenivasan
+******/
 public class GitDemo {
     
     private double previousNumber;
@@ -18,7 +18,8 @@ public class GitDemo {
     *****/
     public double addNumber(double num) {
         System.out.print("Add num to previousNumber");
-        return 0;
+        previousVariable = num;
+        return previousVariable;
     }
     
     /*****
@@ -27,7 +28,7 @@ public class GitDemo {
      * @param - description of passed in arguments go here
      * @return - description of return value goes here
      *****/
-    public void templateFunction(int num) {
+    public void templateFunction1(int num) {
         double factorialNumber = 0;
         
         while (num != 0) {
@@ -35,7 +36,15 @@ public class GitDemo {
             factorialNumber = factorialNumber * 10 + temp;
             num /= 10;
         }
+        return factorialNumber; 
+    }
+  
+    public void templateFunction2(int num){
+        double newNumber = 1;
         
-        return factorialNumber;
+        for(int i = 1; i <= num; ++i){
+            newNumber = newNumber * i;
+        }
+        return newNumber;
     }
 }
